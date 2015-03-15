@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SDN Monitor</string>
+    <string name="title_sdnevent_detail">SDNEvent Detail</string>
+</resources>
