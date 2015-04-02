@@ -1,21 +1,16 @@
 package com.sdnmonitor.ransomer;
 
 import android.app.IntentService;
-import android.app.Service;
 import android.content.Intent;
-import android.os.Binder;
-import android.os.IBinder;
-import android.support.v4.content.AsyncTaskLoader;
 import android.util.Log;
 import android.widget.Toast;
-import com.rabbitmq.client.Connection;
+
 import com.rabbitmq.client.ConnectionFactory;
 
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
-import java.util.NoSuchElementException;
 
 /**
  * Created by Ray on 4/2/15.
@@ -65,16 +60,6 @@ public class MQService extends IntentService {
     @Override
     public void onCreate() {
         super.onCreate();
-
-        //The output TextView we'll use to display messages
-        //mOutput =  (TextView) findViewById(R.id.output);
-
-
-
-        //Connect to broker
-        //mConsumer.connectToRabbitMQ();
-
-
 
 
         Log.d("MQService", "Service created");
