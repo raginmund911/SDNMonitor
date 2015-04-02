@@ -16,13 +16,6 @@ import java.security.NoSuchAlgorithmException;
  * Created by Ray on 4/2/15.
  */
 public class MQService extends IntentService {
-    // Binder given to clients
-    //private final IBinder mBinder = new MQBinder();
-
-    /*
-    MQBinder provides getService() method for clients to retrieve the current
-    instance of MQService
-    */
 
     public MQService() {
         super("MQService");
