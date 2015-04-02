@@ -55,8 +55,6 @@ public class MQService extends IntentService {
 
     }
 
-
-
     @Override
     public void onCreate() {
         super.onCreate();
